@@ -13,28 +13,28 @@ Todo vetor possui um ponto referencial *x* e *y* ou *z* quando for 3 dimensões 
 
 * **Vetor Nulo**: É unm vetor com seus valores iguais a zero, ou seja, tudo zero. Exemplo:
 ```
-U = (0, 0)
-U = (0, 0, 0)
-U = (0, 0, 0, 0)
+u = (0, 0)
+u = (0, 0, 0)
+u = (0, 0, 0, 0)
 ```
 * **Vetor Oposto ou Simétrico**: Dois vetores, um *oposto a outro* no plano cartesiano, contendo o mesmo <u>**módulo**</u> (tamanho), mesma direção, apenas sentidos diferentes. Exemplo:
 ```
-U = (8, 9); -U = (-8, -9)
-U = (8, 9, 10); -U = (-8, -9, -10)
-U = (8, 9, 10, 11); -U = (-8, -9, -10, -11)
+u = (8, 9); -u = (-8, -9)
+u = (8, 9, 10); -u = (-8, -9, -10)
+u = (8, 9, 10, 11); -u = (-8, -9, -10, -11)
 ```
-* **Vetor Unitário**: É um vetor *U* qye seu <u>**módulo**</u> (tamanho) é 1, ou seja, `|U| = 1`.
+* **Vetor Unitário**: É um vetor *u* qye seu <u>**módulo**</u> (tamanho) é 1, ou seja, `|u| = 1`.
 * **Vetores Colineares** (Paralelo): são colineares se dois vetores tiverem a mesma direção, ou seja, pertence a mesma reta e/ou paralelo a ela.
 * **Vetores Coplanares**: Quando dois vetores fazem parte de um mesmo plano. Exemplos:
 ```
 Exemplo 1
-U = (10, 15)
-V = (5, 8)
+u = (10, 15)
+v = (5, 8)
 ```
 ```
 Exemplo 2
-U = (3, 7, 2)
-V = (4, 7, 0)
+u = (3, 7, 2)
+v = (4, 7, 0)
 ```
 
 ##  Igualdade de Vetores
@@ -48,19 +48,19 @@ Um vetor é igual ao outro se:
 Exemplos:
 ```
 Exemplo 1
-U1 = (0, 5)
-U2 = (0, 5)
-U1 = U2
+u1 = (0, 5)
+u2 = (0, 5)
+u1 = u2
 ```
 ```
 Exemplo 2
-U1 = (15, 25)
-U2 = (15, 25)
-U1 = U2
+u1 = (15, 25)
+u2 = (15, 25)
+u1 = u2
 ```
 
 ### Exercício
-Sejam `U = (x - 1, 3)` e `V = (3, 2y - 1)`. Determine o valor de `|x|` e `|y|` para que `U = V`.
+Sejam `u = (x - 1, 3)` e `v = (3, 2y - 1)`. Determine o valor de `|x|` e `|y|` para que `u = v`.
 ```
 x - 1 = 3
 3 = 2y - 1
@@ -75,9 +75,27 @@ x = 3 + 1 => 4
 // Resultado
 x = 4
 y = 2
-U = (4 - 1, 3)      = (3, 3)
-V = (3, 2 * 2 - 1)  = (3, 3)
-U = V
+u = (4 - 1, 3)      = (3, 3)
+v = (3, 2 * 2 - 1)  = (3, 3)
+u = v
 ```
 
-FONTE: [S.O.S SABER - YouTube](https://www.youtube.com/watch?v=S6TdSAY-RnU&list=PLO3hBdfBc4pFef1zn1oZyYXLomL9MiX-C&index=2)
+## Soma de Vetores
+
+É a soma entre dois **pontos** de um plano cartesiano, somando cada um dos eixos (x, y, z, w...). Fórmula:
+```
+u1 = (x1, y1)
+u2 = (x2, y2)
+u1 + u2 = (x1 + x2, y1 + y2)
+```
+
+## Subtração de Vetores
+
+É a subtração entre dois **pontos** de um plano cartesiano, subtraindo cada um dos eixos (x, y, z, w...). Fórmula:
+```
+u1 = (x1, y1)
+u2 = (x2, y2)
+u1 - u2 = (x1 - x2, y1 - y2)
+```
+
+FONTE: [S.O.S SABER - YouTube](https://www.youtube.com/watch?v=TP2o31y5_GU&list=PLO3hBdfBc4pFef1zn1oZyYXLomL9MiX-C&index=2)
