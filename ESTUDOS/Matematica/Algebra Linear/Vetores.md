@@ -17,13 +17,13 @@ u = (0, 0)
 u = (0, 0, 0)
 u = (0, 0, 0, 0)
 ```
-* **Vetor Oposto ou Simétrico**: Dois vetores, um *oposto a outro* no plano cartesiano, contendo o mesmo <u>**módulo**</u> (tamanho), mesma direção, apenas sentidos diferentes. Exemplo:
+* **Vetor Oposto ou Simétrico**: Dois vetores, um *oposto a outro* no plano cartesiano, contendo o mesmo [modulo](#módulo-de-um-vetor), mesma direção, apenas sentidos diferentes. Exemplo:
 ```
 u = (8, 9); -u = (-8, -9)
 u = (8, 9, 10); -u = (-8, -9, -10)
 u = (8, 9, 10, 11); -u = (-8, -9, -10, -11)
 ```
-* **Vetor Unitário**: É um vetor *u* qye seu <u>**módulo**</u> (tamanho) é 1, ou seja, `|u| = 1`.
+* **Vetor Unitário**: É um vetor *u* que seu [modulo](#módulo-de-um-vetor) é 1, ou seja, `|u| = 1`.
 * **Vetores Colineares** (Paralelo): são colineares se dois vetores tiverem a mesma direção, ou seja, pertence a mesma reta e/ou paralelo a ela.
 * **Vetores Coplanares**: Quando dois vetores fazem parte de um mesmo plano. Exemplos:
 ```
@@ -115,6 +115,15 @@ Diferente da soma e subtração, a multiplicação traz um valor real, não um v
 ```
 u = (x, y)
 αu = α(x, y) => (αx, αy)
+```
+
+## Módulo de um vetor
+
+O módulo de um vetor se refere ao seu tamanho, onde nó multiplicamos o vetor por ele mesmo e depois aplica a raiz quadrada. Fórmula:
+```
+u = (x, y)
+|u| = √(u²) = √((x, y)²)
+ax²
 ```
 
 FONTE: [S.O.S SABER - YouTube](https://www.youtube.com/watch?v=TP2o31y5_GU&list=PLO3hBdfBc4pFef1zn1oZyYXLomL9MiX-C&index=2)
