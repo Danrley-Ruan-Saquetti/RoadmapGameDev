@@ -122,8 +122,14 @@ u = (x, y)
 O módulo de um vetor se refere ao seu tamanho, onde nó multiplicamos o vetor por ele mesmo e depois aplica a raiz quadrada. Fórmula:
 ```
 u = (x, y)
-|u| = √(u²) = √((x, y)²)
-ax²
+|u| = √(u²) = √(x² + y²)
+```
+
+## Ângulo entre dois vetores
+
+O ângulo entre dois vetores (Ø), se dá quando ambos partem de um mesmo ponto e para calcular, seguindo esta fórmula:
+```
+cos Ø = (u * v) / (|u| * |v|)
 ```
 
 FONTE: [S.O.S SABER - YouTube](https://www.youtube.com/watch?v=TP2o31y5_GU&list=PLO3hBdfBc4pFef1zn1oZyYXLomL9MiX-C&index=2)
