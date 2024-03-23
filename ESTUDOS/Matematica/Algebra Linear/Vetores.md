@@ -100,13 +100,21 @@ u1 - u2 = (x1 - x2, y1 - y2)
 
 ## Multiplicação de Vetores - Produto Escalar
 
-É a multiplicação entre dois **pontos** de um plano cartesiano, multiplicando cada um dos eixos (x, y, z, w...) e por fim somando-os (Produto Escalar). Fórmula:
+É a multiplicação entre dois **pontos** de um plano cartesiano, multiplicando cada um dos eixos (x, y, z, w...) e por fim somando-os, formando um produto escalar `α` (alfa). Fórmula:
 ```
 u1 = (x1, y1)
 u2 = (x2, y2)
-u1 * u2 = (x1 * x2 + y1 * y2)
+u1 * u2 = (x1 * x2 + y1 * y2) = α
 ```
 
 Diferente da soma e subtração, a multiplicação traz um valor real, não um vetor, que representa uma medida da magnitude de um vetor na direção de outro vetor, muito usado para calcular projeções de um vetor sobre o outro.
+
+## Multiplicação por um escalar
+
+É a multiplicação entre um número real ([Produto Escalar](#multiplicação-de-vetores---produto-escalar)) e um vetor, resultando em um novo vetor. Fórmula:
+```
+u = (x, y)
+αu = α(x, y) => (αx, αy)
+```
 
 FONTE: [S.O.S SABER - YouTube](https://www.youtube.com/watch?v=TP2o31y5_GU&list=PLO3hBdfBc4pFef1zn1oZyYXLomL9MiX-C&index=2)
