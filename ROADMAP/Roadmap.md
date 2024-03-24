@@ -23,12 +23,13 @@
 4. Projetos Práticos:
 ( ) Crie Jogos: Desenvolva projetos de pequena escala para aplicar seus conhecimentos.
 ( ) Participe em Game Jams: Participe de eventos como Ludum Dare, Global Game Jam, para desenvolver jogos em um curto espaço de tempo.
-( ) Contribua para Projetos Open Source: Colabore com projetos de código aberto relacionados a jogos para ganhar experiência prática e aprender com ( ) outros desenvolvedores.
+( ) Contribua para Projetos Open Source: Colabore com projetos de código aberto relacionados a jogos para ganhar experiência prática e aprender com outros desenvolvedores.
 
 5. Networking e Portfólio:
 ( ) Participe de Comunidades: Junte-se a fóruns online, grupos de discussão e eventos locais relacionados a jogos.
 ( ) Construa um Portfólio: Mostre seus projetos e habilidades através de um portfólio online.
 ( ) Network: Conheça outros desenvolvedores de jogos, artistas, músicos e profissionais da indústria.
-( ) 6. Continuação dos Estudos:
+
+6. Continuação dos Estudos:
 ( ) Acompanhe Tendências: Mantenha-se atualizado com as últimas tecnologias e tendências na indústria de jogos.
 ( ) Educação Continuada: Esteja sempre disposto a aprender novas técnicas, linguagens de programação e ferramentas.

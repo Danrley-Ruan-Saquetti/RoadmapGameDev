@@ -9,7 +9,7 @@ Vetores podem possui várias dimensões:
 
 Todo vetor possui um ponto referencial *x* e *y* ou *z* quando for 3 dimensões ou *w* quando ofr 4 dimensões.
 
-## Tipos de Vetores
+## Tipos de vetores
 
 * **Vetor Nulo**: É unm vetor com seus valores iguais a zero, ou seja, tudo zero. Exemplo:
 ```
@@ -37,7 +37,7 @@ u = (3, 7, 2)
 v = (4, 7, 0)
 ```
 
-##  Igualdade de Vetores
+##  Igualdade de vetores
 
 Um vetor é igual ao outro se:
 * O *x* do primeiro vetor for igual ao *x* do segundo vetor: `x1 = x2`
@@ -80,7 +80,7 @@ v = (3, 2 * 2 - 1)  = (3, 3)
 u = v
 ```
 
-## Soma de Vetores
+## Soma de vetores
 
 É a soma entre dois **pontos** de um plano cartesiano, somando cada um dos eixos (x, y, z, w...). Fórmula:
 ```
@@ -89,7 +89,7 @@ u2 = (x2, y2)
 u1 + u2 = (x1 + x2, y1 + y2)
 ```
 
-## Subtração de Vetores
+## Subtração de vetores
 
 É a subtração entre dois **pontos** de um plano cartesiano, subtraindo cada um dos eixos (x, y, z, w...). Fórmula:
 ```
@@ -98,7 +98,7 @@ u2 = (x2, y2)
 u1 - u2 = (x1 - x2, y1 - y2)
 ```
 
-## Multiplicação de Vetores - Produto Escalar
+## Multiplicação de vetores - Produto Escalar
 
 É a multiplicação entre dois **pontos** de um plano cartesiano, multiplicando cada um dos eixos (x, y, z, w...) e por fim somando-os, formando um produto escalar `α` (alfa). Fórmula:
 ```
@@ -131,5 +131,19 @@ O ângulo entre dois vetores (Ø), se dá quando ambos partem de um mesmo ponto 
 ```
 cos Ø = (u * v) / (|u| * |v|)
 ```
+
+## Paralelismo de dois vetores (Colineares)
+
+São quando dois vetores são paralelos entre si. Para verificar se dois vetores são paralelos (colineares), basta dividir cada valor de cada eixo. Fórmula:
+```
+u = (x1, y1)
+t = (x2, y2)
+
+x1 / x2 = y1 / y2 = a
+```
+
+## Ortogonalidade de dois vetores
+
+É quando dois vetores, que partem da mesma origem, formam um [ângulo](#ângulo-entre-dois-vetores) (Ø) de 90º entre si (ângulo reto), ou seja, se o [produto escalar](#multiplicação-de-vetores---produto-escalar) entre ambos for zero: `u1 * u2 = (x1 * x2 + y1 * y2) = 0`.
 
 FONTE: [S.O.S SABER - YouTube](https://www.youtube.com/watch?v=TP2o31y5_GU&list=PLO3hBdfBc4pFef1zn1oZyYXLomL9MiX-C&index=2)
