@@ -144,6 +144,10 @@ x1 / x2 = y1 / y2 = a
 
 ## Ortogonalidade de dois vetores
 
-É quando dois vetores, que partem da mesma origem, formam um [ângulo](#ângulo-entre-dois-vetores) (Ø) de 90º entre si (ângulo reto), ou seja, se o [produto escalar](#multiplicação-de-vetores---produto-escalar) entre ambos for zero: `u1 * u2 = (x1 * x2 + y1 * y2) = 0`.
+É quando dois vetores R², que partem da mesma origem, possuem um [produto escalar](#multiplicação-de-vetores---produto-escalar) igual a a zero, ou seja, quando o [ângulo](#ângulo-entre-dois-vetores) entre eles for igual a 90º.
+
+## Vetores Perpendiculares
+
+Assim como a [ortogonalidade](#ortogonalidade-de-dois-vetores), os vetores são perpendiculares entre si quando o [produto escalar](#multiplicação-de-vetores---produto-escalar) entre eles for zero (0), mas diferença é que perpendicular trabalha com planos R3, R4..., não dependendo do ângulo entre eles.
 
 FONTE: [S.O.S SABER - YouTube](https://www.youtube.com/watch?v=TP2o31y5_GU&list=PLO3hBdfBc4pFef1zn1oZyYXLomL9MiX-C&index=2)
