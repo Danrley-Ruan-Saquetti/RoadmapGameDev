@@ -150,4 +150,23 @@ x1 / x2 = y1 / y2 = a
 
 Assim como a [ortogonalidade](#ortogonalidade-de-dois-vetores), os vetores são perpendiculares entre si quando o [produto escalar](#multiplicação-de-vetores---produto-escalar) entre eles for zero (0), mas diferença é que perpendicular trabalha com planos R3, R4..., não dependendo do ângulo entre eles.
 
+## Projeção Ortogonal entre dois vetores
+
+Projeção entre dois vetores é quando se deseja torna-los mas próximos um do outro, sem alterar seu ângulo. Fórmula: `proj(u, w) = ( (w * u) / u² ) * u`
+
+* `(w * u) / u²` resulta num valor escalar;
+* Com ele, [multiplica-se](#multiplicação-por-um-escalar) sobre o vetor *u* para aproximá-lo de *w*, retornando um novo vetor;
+* Quando o valor escalar for positivo, ele irá continuar o seguimento da reta, se negativo, ele irá seguir na direção oposto do seguimento, andando "para trás".
+```
+Exemplo
+
+u = (0, -1, 1)
+w = (2, 0, -10)
+
+(2 * 0 + 0 * (-1) + (-10) * 1) / (0² + -1² + 1²)
+-10 / 2 => -5
+
+-5 * (0, -1, 1) => (0, 5, -5) ou apenas -5u
+```
+
 FONTE: [S.O.S SABER - YouTube](https://www.youtube.com/watch?v=TP2o31y5_GU&list=PLO3hBdfBc4pFef1zn1oZyYXLomL9MiX-C&index=2)
